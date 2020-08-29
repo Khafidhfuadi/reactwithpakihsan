@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SiswaRPL from "./Components/Home/SiswaRPL";
+import LifeCycle from "./Components/Home/LifeCycle";
 // import Hello from "/hello";
 // import LogoImage from "./img/logo.png";
 
@@ -15,7 +15,7 @@ class Home extends Component {
         <Siswa nama={"Awwal"} nisn="7463247236" jurusan={"RPL"} />
         <Siswa nama={"Mufid"} nisn="7463247236" jurusan={"RPL"} /> */}
         <div>
-          <SiswaRPL />
+          <LifeCycle />
         </div>
       </div>
     );
